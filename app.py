@@ -4,7 +4,7 @@ import joblib
 
 # Load the trained model
 model = joblib.load("house_price_model.pkl")
-
+st.set_page_config(page_title="🏡 House Price Predictor")
 st.title("California House Price Predictor 🏡")
 
 st.write("Enter the neighborhood features:")
